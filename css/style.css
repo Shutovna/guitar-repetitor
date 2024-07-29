@@ -432,18 +432,19 @@ table {
   border-spacing: 0;
 }
 
-/* line 9, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 4, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 * {
   box-sizing: border-box;
 }
 
-/* line 16, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 10, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .container {
+  position: relative;
   max-width: 1140px;
   margin: 0 auto;
 }
 
-/* line 19, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 14, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .main-section {
   position: relative;
   min-height: 800px;
@@ -452,7 +453,7 @@ table {
   overflow: hidden;
 }
 
-/* line 21, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 20, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .main-section__nav-container {
   display: flex;
   flex-direction: row;
@@ -461,61 +462,61 @@ table {
   align-items: center;
 }
 
-/* line 27, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 26, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .main-section__logo {
   height: 69px;
 }
 
-/* line 29, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 28, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .main-section__content-container {
   position: relative;
   display: flex;
   flex-direction: row;
 }
 
-/* line 33, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 32, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .main-section__first-elipse {
   position: absolute;
   top: 129px;
   right: 80px;
 }
 
-/* line 37, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 36, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .main-section__second-elipse {
   position: absolute;
   right: -120px;
   top: 650px;
 }
 
-/* line 43, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 42, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .nav-menu__list {
   display: flex;
   flex-direction: row;
 }
 
-/* line 47, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 46, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .nav-menu__list-item {
   margin-right: 64px;
   font-size: 18px;
 }
 
-/* line 50, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 49, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .nav-menu__list-item:last-child {
   margin-right: 0px;
 }
 
-/* line 53, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 52, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .left-wrapper {
   position: relative;
 }
 
-/* line 55, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 54, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .left-wrapper img {
   position: relative;
   z-index: 5;
 }
 
-/* line 58, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 57, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .left-wrapper__rectangle-blue {
   position: absolute;
   top: 150px;
@@ -529,7 +530,7 @@ table {
   z-index: 2;
 }
 
-/* line 69, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 68, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .left-wrapper__rectangle-orange {
   position: absolute;
   width: 618.43px;
@@ -543,7 +544,7 @@ table {
   z-index: 3;
 }
 
-/* line 80, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 79, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .left-wrapper__rectangle-grey {
   position: absolute;
   width: 608.97px;
@@ -557,7 +558,7 @@ table {
   z-index: 1;
 }
 
-/* line 92, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 91, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .right-wrapper {
   width: 372px;
   position: absolute;
@@ -566,29 +567,29 @@ table {
   z-index: 5;
 }
 
-/* line 98, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 97, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .right-wrapper__icons-box {
   margin-bottom: 1px;
   padding-left: 10px;
 }
 
-/* line 101, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 100, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .right-wrapper__title {
   margin-bottom: 5px;
 }
 
-/* line 103, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 102, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .right-wrapper__text {
   font-size: 16px;
   margin-bottom: 20px;
 }
 
-/* line 108, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 107, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .icons {
   display: inline-flex;
 }
 
-/* line 111, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 110, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .icons__item {
   display: flex;
   justify-content: center;
@@ -600,23 +601,23 @@ table {
   margin-right: 17px;
 }
 
-/* line 120, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 119, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .icons__item:last-child {
   margin-right: 0px;
 }
 
-/* line 122, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 121, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .icons__item i {
   font-size: 21px;
 }
 
-/* line 125, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 124, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .title {
   font-size: 72px;
   position: relative;
 }
 
-/* line 128, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 127, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .title__hr {
   width: 65px;
   position: absolute;
@@ -626,12 +627,12 @@ table {
   border-top: 1px solid black;
 }
 
-/* line 136, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 135, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .buttons {
   display: inline-flex;
 }
 
-/* line 138, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 137, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .buttons__main-btn {
   margin-right: 32px;
   width: 200px;
@@ -644,23 +645,23 @@ table {
   color: white;
 }
 
-/* line 148, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 147, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .buttons__icon-btn {
   display: inline-flex;
   align-items: center;
 }
 
-/* line 151, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 150, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .buttons__icon-btn img {
   margin-right: 12px;
 }
 
-/* line 153, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 152, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .buttons__text {
   font-size: 16px;
 }
 
-/* line 156, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 155, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .elipse {
   width: 194px;
   height: 194px;
@@ -671,13 +672,13 @@ table {
   align-items: center;
 }
 
-/* line 164, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 163, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .elipse_dig {
   width: 282px;
   height: 282px;
 }
 
-/* line 167, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 166, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .elipse__subtract {
   width: 129.33px;
   height: 129.33px;
@@ -685,7 +686,7 @@ table {
   border-radius: 150px;
 }
 
-/* line 172, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 171, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .elipse__subtract_big {
   width: 188px;
   height: 188px;
@@ -693,143 +694,183 @@ table {
 
 /* line 177, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .second-section {
-  position: relative;
-  min-height: 800px;
-  background: #F0F0F0;
-  padding-top: 16px;
-  overflow: hidden;
-  position: relative;
   min-height: 700px;
 }
 
-/* line 181, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 179, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .second-section__container {
   padding-top: 32px;
-  padding-left: 150px;
+  position: relative;
 }
 
-/* line 185, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
-.second-section__card-box {
-  margin-bottom: 25px;
-}
-
-/* line 187, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+/* line 182, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
 .second-section__title {
   margin-bottom: 40px;
 }
 
-/* line 189, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
-.second-section__first-elipse {
-  position: absolute;
-  top: 350px;
-  left: 377px;
+/* line 184, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+.second-section__cards-box {
+  display: inline-flex;
+  margin-bottom: 25px;
 }
 
-/* line 193, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
-.second-section__second-elipse {
-  position: absolute;
-  top: 30px;
-  right: 230px;
-}
-
-/* line 197, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
-.second-section__icon-box {
-  padding-left: 52px;
-}
-
-/* line 201, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
-.card-box {
-  display: flex;
-  flex-wrap: nowrap;
-}
-
-/* line 204, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
-.card-box__card {
+/* line 187, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+.second-section__cards-item {
   margin-right: 30px;
 }
 
-/* line 206, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
-.card-box__card:last-child {
-  margin: 0;
+/* line 189, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+.second-section__cards-item:last-child {
+  margin-right: 0;
 }
 
-/* line 209, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
-.card {
+/* line 191, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+.second-section__icons-box {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* line 195, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+.second-section__icons-item:last-child {
+  margin-right: 0;
+}
+
+/* line 197, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+.second-section__first-elipse {
+  position: absolute;
+  top: 80px;
+  right: -60px;
+  z-index: -1;
+}
+
+/* line 202, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+.second-section__second-elipse {
+  position: absolute;
+  top: 364px;
+  left: -60px;
+  z-index: -1;
+}
+
+/* line 208, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+.cards-item {
   position: relative;
   width: 360px;
   height: 360px;
-  z-index: 5;
+  background: #E2E2E2;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
 }
 
-/* line 214, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
-.card__img {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 197px;
-  height: 336px;
+/* line 216, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+.cards-item__img {
+  height: 335px;
 }
 
-/* line 220, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
-.card__text {
-  width: 214px;
-  height: 72px;
+/* line 218, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+.cards-item__text {
+  width: 280px;
   font-size: 36px;
-  transform: rotate(90deg);
   text-align: center;
+  transform: rotate(90deg);
   position: absolute;
-  right: -50px;
-  top: 143px;
+  top: 144px;
+  right: -45px;
 }
 
-/* line 229, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
-.card_gray {
-  background-color: #E2E2E2;
+/* line 227, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+.cards-item_orange {
+  background: #F28B64;
 }
 
-/* line 231, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
-.card_orange {
-  background-color: #F28B64;
+/* line 230, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+.cards-item_blue {
+  background: #5290EA;
 }
 
 /* line 233, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
-.card_blue {
-  background-color: #5290EA;
-}
-
-/* line 237, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
-.icon-box {
-  display: flex;
-  flex-wrap: nowrap;
-}
-
-/* line 241, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
-.icon {
+.icons-item {
   display: inline-flex;
-  margin-right: 60px;
+  align-items: center;
 }
 
-/* line 244, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
-.icon__img {
-  display: inline-block;
-  width: 80px;
-  height: 80px;
+/* line 236, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+.icons-item__img {
   margin-right: 20px;
+  width: 80px;
 }
 
-/* line 249, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
-.icon__text {
+/* line 239, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+.icons-item__text {
   font-size: 18px;
 }
 
-/* line 251, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
-.icon__text span {
+/* line 241, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+.icons-item__text span {
   font-size: 48px;
 }
 
-/* line 253, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
-.icon:last-child {
-  margin: 0;
+/* line 244, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+.third-section {
+  position: relative;
+  min-height: 640px;
+  background: #F0F0F0;
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* line 250, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+.third-section__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 167px;
+  padding-top: 46px;
+}
+
+/* line 257, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+.third-section__right-wrapper {
+  max-width: 480px;
+}
+
+/* line 259, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+.third-section__right-title {
+  margin-bottom: 20px;
+}
+
+/* line 261, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+.third-section__text {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+/* line 264, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+.third-section__first-elipse {
+  position: absolute;
+  top: 140px;
+  left: 110px;
+  z-index: -1;
+}
+
+/* line 269, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+.third-section__figure {
+  position: absolute;
+  top: 249px;
+  left: 15px;
+  z-index: -1;
+}
+
+/* line 274, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+.third-section__second-elipse {
+  position: absolute;
+  right: -120px;
+  top: -120px;
+}
+
+/* line 280, ../../work/WebStormProjects/GuitarRepetitor/sass/style.sass */
+.title__hr_top {
+  bottom: 75px;
 }
 
 /*# sourceMappingURL=style.css.map */
